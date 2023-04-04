@@ -1,0 +1,19 @@
+{
+    "name": "async-hook-demo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+        "async_hooks": "^1.0.0",
+        "esm": "^3.2.25",
+        "express": "^4.18.2",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    },
+    "type": "module"
+}
